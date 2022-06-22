@@ -101,8 +101,8 @@ public class TaskImpl implements Task {
         if(isActive()) {
             if (isRepeated()) {
                 int result=start;
-                while(result<=end){
-                if (current<=result) {
+                while(result<end){
+                if (current<result) {
                     return result;
                     }
                     result=result+interval;
