@@ -1,6 +1,12 @@
 package mx.tc.j2se.tasks;
 
+/**
+ * This class create a simple task with some properties
+ * @author Adrian Ramos Nieves
+ * @version 21/06/2022
+ */
 public interface Task {
+
     String getTitle();
 
     void setTitle(String title);
